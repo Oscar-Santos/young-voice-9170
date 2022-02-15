@@ -21,5 +21,6 @@ RSpec.describe 'students index' do
     expect(page).to have_content("Harry Potter: 3" )
     expect(page).to have_content("Draco Malfoy: 2" )
     expect(page).to have_content("Neville Longbottom: 1" )
+    expect(page).to_not have_content("homer simpson: 200" )
   end
 end
