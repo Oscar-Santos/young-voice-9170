@@ -17,6 +17,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'json'
 gem 'bootsnap'
 
+
 group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'
